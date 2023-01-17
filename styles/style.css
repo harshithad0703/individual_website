@@ -95,8 +95,8 @@ html {
     display:flex;
 }
 #pic img {
-    width:575px;
-    height: 400px;
+    width:475px;
+    height: 525px;
 }
 #intro {
     display: flex;
