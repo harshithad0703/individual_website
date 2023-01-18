@@ -28,13 +28,13 @@ html {
     text-decoration: none;
     color: white;
     padding: 8px 25px;
-    transition: all .5s ease;
+    transition: all .2s ease;
 
 }
-.navbarul ul li a:hover {
+.navbar ul li a:hover {
     background-color: white;
     color: black;
-    box-shadow: 0 0 10px white;
+    
 }
 #home {
     display: flex;
@@ -66,7 +66,7 @@ html {
 }
 .headings1 {
     font-family: 'Tangerine';
-    font-size: 5rem;
+    font-size: 8rem;
     text-align: center;
 
 }
@@ -98,6 +98,13 @@ html {
     padding: 20px;
     margin-bottom: 50px;
 }
+/*.edu1{
+    text-decoration: none;
+    color: orangered;
+}*/
+.edu {
+    text-decoration: none;
+}
 #pic {
     display:flex;
 }
@@ -110,6 +117,9 @@ html {
     flex-direction: column;
     text-align: justify;
     padding: 10px;
+}
+#intro p .p_about {
+    font-size: xx-large;
 }
 #education {
     display: flex;
@@ -126,22 +136,19 @@ html {
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 400px;
+    height: 300px;
     border: 1px solid black;
     margin: 10px;
     align-items: center;
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top, rgb(180, 180, 180) 50%, white 50%);
+    background: linear-gradient(to top, rgb(224, 224, 224) 50%, white 50%);
     background-size: 100% 200%;
 }
 .box:hover {
     background-position: left bottom;
 }
-
-
-
 #contact {
     display: flex;
     justify-content: center;
@@ -208,9 +215,13 @@ html {
     .headings1 {
         font-size: 2rem;
     }
+    /*#pic img {
+        width: 150px;
+        height: 175px;
+    }*/
     #pic img {
         width: 45%;
-        height: 30%;
+        height:30%;
     }
     #intro h3 {
         font-size: 1.2rem;
