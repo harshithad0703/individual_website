@@ -66,7 +66,7 @@ html {
 }
 .headings1 {
     font-family: 'Tangerine';
-    font-size: 5rem;
+    font-size: 6rem;
     text-align: center;
 
 }
@@ -82,7 +82,7 @@ html {
     text-align: center;
     margin: 40px 0px;
 }
-/*.btn {
+.btn {
     padding: 10px 35px;
     background-color:transparent;
     border: 1px solid white;
@@ -96,7 +96,7 @@ html {
     color: black;
     box-shadow: 0 0 5px whitesmoke;
     font-weight: bold;
-} */
+}
 #about {
     display: flex;
     flex-direction: column;
@@ -191,12 +191,15 @@ html {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .heading {
+    .headings {
         font-size: 2.5rem;
     }
     #pic {
         flex-direction: column;
         align-items: center;
+    }
+    .headings1 {
+        font-size: 3rem;
     }
     #pic img {
         width: 45%;
@@ -219,6 +222,9 @@ html {
     }
     .headings1 {
         font-size: 2rem;
+    }
+    #home .main h3 {
+        font-size: 1rem;
     }
     /*#pic img {
         width: 150px;
